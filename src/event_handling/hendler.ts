@@ -9,6 +9,7 @@ import { fnPositionSet } from "./position/showPosition.js";
 import { prntScrn } from "./commands/screen_shot.js";
 
 export const  hendlerStart = async (args: string[]) =>{
+
     switch (args[0]) {
         case 'draw_rectangle' : return drawRectangle(args);
         case 'draw_circle' : return drawCircle(args);

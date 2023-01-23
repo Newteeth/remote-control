@@ -2,7 +2,6 @@ import { down, left, mouse, right, up } from "@nut-tree/nut-js";
 
 export const drawRectangle = async(args: string[]) => {
 
-
     const x: number = +args[1];
     const y: number = +args[2];
 
